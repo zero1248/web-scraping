@@ -1,0 +1,20 @@
+
+
+list1 = [1, 2]
+print(list1[0:1])
+print(list1[0:2])
+list1.extend([3])
+print(list1[0:3])
+list1.extend('4')
+print(list1[0:4])
+list1.extend([4,5])
+print(list1[0:5])
+list1.extend([6,'7'])
+print(list1[0:6])
+print(list1[0:7])
+print(list1[0:8])
+print(list1[0:9])
+list1.extend([])
+print(list1[0:9])
+list1.pop()
+print(list1[0:9])
